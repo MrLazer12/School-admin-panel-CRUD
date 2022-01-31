@@ -1,0 +1,69 @@
+body{
+	padding-top: 3vh;
+	background-image: url(../images/background/add_student_bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.tableheader {
+	background-color: #3D1487;
+	color: white;
+	font-weight: bold;
+}
+.message{
+	font-weight: normal;
+	color: white;
+	background: rgba(9,120,202,1);
+	padding: 1vh 1.5vw;
+	display: block;
+	margin: 0 auto;
+
+	font-size: 1.3em;
+	font-family: "Courier New";
+	text-align: center;
+}
+
+a:first-of-type{
+	display: block;
+	border-bottom: 4px solid brown;
+	padding-bottom: 1vh;
+	width: 100%;
+	text-align: right;
+	text-decoration: none;
+	color: #5EABDF;
+}
+a:first-of-type:hover{ text-decoration: underline; }
+
+table{
+	background-color: #000049;
+	color: #9999B0;
+}
+form[name=form_user]{
+	background: white;
+	width: 400px;
+	margin: 0 auto;
+	border: 2px solid gray;
+	padding: 7px;
+	border-radius: 5px;
+}
+
+input[type=text], input[type=email], input[type=date]{
+	padding: 5px;
+	border: #fedc4d 1px solid;
+	border-radius: 4px;
+}
+
+input[type=submit]{
+	background-color: #fd9512;
+	padding: 5px;
+	border-color: #FF6600;
+	border-radius: 4px;
+	color: white;
+	font-weight: bold;
+}
+input[type=submit]:hover{
+	cursor: pointer;
+	transition: 1s ease;
+	background-color: brown;
+	color: black;
+}
